@@ -52,6 +52,7 @@ public class MinimumCharactersRequiredToMakeAStringPalindromic {
 		return 0;
 	}
 	
+	//TODO have to solve the bug after removing the j index for right to left traversal 
 	public static int solveMethod2(String str) {
 		StringBuilder str2=new StringBuilder(str);
 		String str1=new StringBuilder(str).reverse().toString();
